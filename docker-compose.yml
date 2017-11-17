@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  glasssun:
+    image: glasssun
+    build:
+      context: ./GlassSun
+      dockerfile: Dockerfile

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassSun", "GlassSun\GlassSun.csproj", "{4AD884E8-9824-4BE9-B1E0-3F8D9ABFE7D2}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{892E11D6-E033-417D-B8D9-70AE527D79C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AD884E8-9824-4BE9-B1E0-3F8D9ABFE7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD884E8-9824-4BE9-B1E0-3F8D9ABFE7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD884E8-9824-4BE9-B1E0-3F8D9ABFE7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD884E8-9824-4BE9-B1E0-3F8D9ABFE7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892E11D6-E033-417D-B8D9-70AE527D79C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892E11D6-E033-417D-B8D9-70AE527D79C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892E11D6-E033-417D-B8D9-70AE527D79C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892E11D6-E033-417D-B8D9-70AE527D79C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {002885C0-6FE0-484B-A386-494CF7992A8B}
+	EndGlobalSection
+EndGlobal
