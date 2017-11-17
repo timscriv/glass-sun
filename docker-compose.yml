@@ -6,3 +6,9 @@ services:
     build:
       context: ./src/GlassSun
       dockerfile: Dockerfile
+
+  onyxlion:
+    image: onyxlion
+    build:
+      context: ./src/OnyxLion
+      dockerfile: Dockerfile
