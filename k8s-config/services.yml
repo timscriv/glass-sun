@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: glass-sun
+spec:
+  type: LoadBalancer
+  selector:
+    app: glass-sun
+  ports:
+  - port: 8080

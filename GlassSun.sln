@@ -10,6 +10,10 @@ EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{213F636A-BC22-4154-B49A-F7A3BDB2A780}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s-config", "k8s-config", "{B693A834-9F30-43F6-9ECD-182437FB09E0}"
+	ProjectSection(SolutionItems) = preProject
+		k8s-config\deployments.yml = k8s-config\deployments.yml
+		k8s-config\services.yml = k8s-config\services.yml
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxLion", "src\OnyxLion\OnyxLion.csproj", "{1AB5077E-0C13-4168-A191-00F6B3244118}"
 EndProject
