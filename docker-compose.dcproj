@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>892e11d6-e033-417d-b8d9-70ae527d79c5</ProjectGuid>
+    <ProjectGuid>213f636a-bc22-4154-b49a-f7a3bdb2a780</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
     <DockerServiceName>glasssun</DockerServiceName>
