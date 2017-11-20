@@ -12,3 +12,9 @@ services:
     build:
       context: ./src/OnyxLion
       dockerfile: Dockerfile
+
+  obsidianpony:
+    image: obsidianpony
+    build:
+      context: ./src/ObsidianPony
+      dockerfile: Dockerfile

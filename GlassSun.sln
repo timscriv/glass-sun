@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s-config", "k8s-config", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxLion", "src\OnyxLion\OnyxLion.csproj", "{1AB5077E-0C13-4168-A191-00F6B3244118}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsidianPony", "src\ObsidianPony\ObsidianPony.csproj", "{D399EBDE-04C7-4941-9C7D-FE4D998F46E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{1AB5077E-0C13-4168-A191-00F6B3244118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB5077E-0C13-4168-A191-00F6B3244118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB5077E-0C13-4168-A191-00F6B3244118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D399EBDE-04C7-4941-9C7D-FE4D998F46E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D399EBDE-04C7-4941-9C7D-FE4D998F46E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D399EBDE-04C7-4941-9C7D-FE4D998F46E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D399EBDE-04C7-4941-9C7D-FE4D998F46E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AAD70495-FFAE-4247-803C-69A7EB79CA42} = {7FF7CB7C-6377-4B68-A512-6379B6F47FF7}
 		{1AB5077E-0C13-4168-A191-00F6B3244118} = {7FF7CB7C-6377-4B68-A512-6379B6F47FF7}
+		{D399EBDE-04C7-4941-9C7D-FE4D998F46E7} = {7FF7CB7C-6377-4B68-A512-6379B6F47FF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {002885C0-6FE0-484B-A386-494CF7992A8B}
