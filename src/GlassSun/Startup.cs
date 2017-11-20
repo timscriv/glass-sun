@@ -28,7 +28,11 @@ namespace GlassSun
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Glass Sun", Version = "v1" });
+                c.SwaggerDoc("v1", new Info
+                {
+                    Title = "Glass Sun",
+                    Version = "v1"
+                });
             });
         }
 
@@ -42,11 +46,18 @@ namespace GlassSun
 
             app.UseMvc();
 
-            app.UseSwagger()
-                .UseSwaggerUI(c =>
+            app.UseSwagger(c =>
+            {
+                c.PreSerializeFilters.Add((swaggerDoc, httpReq) =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Glass Sun API");
+                    swaggerDoc.Schemes = new[] { "http" };
+                    swaggerDoc.Host = httpReq.Host.Value;
                 });
+            })
+            .UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Glass Sun API");
+            });
         }
     }
 }
