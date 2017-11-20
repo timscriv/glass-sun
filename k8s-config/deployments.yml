@@ -20,4 +20,4 @@ spec:
         image: ethos.azurecr.io/glasssun:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
