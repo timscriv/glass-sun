@@ -8,3 +8,14 @@ spec:
     app: glass-sun
   ports:
   - port: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: onyx-lion
+spec:
+  type: LoadBalancer
+  selector:
+    app: onyx-lion
+  ports:
+  - port: 80
