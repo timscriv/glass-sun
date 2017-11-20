@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: glass-sun
-        image: ethos.azurecr.io/glasssun:#{Build.BuildId}#
+        image: ethos.azurecr.io/glasssun:#{Variable1}#
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
       - name: onyx-lion
-        image: ethos.azurecr.io/onyxlion:#{Build.BuildId}#
+        image: ethos.azurecr.io/onyxlion:#{Variable1}#
         imagePullPolicy: Always
         ports:
         - containerPort: 80
