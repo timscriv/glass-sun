@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: glass-sun
 spec:
-  replicas: 4
+  replicas: 1
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -27,7 +27,7 @@ kind: Deployment
 metadata:
   name: onyx-lion
 spec:
-  replicas: 4
+  replicas: 1
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -49,9 +49,9 @@ spec:
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: obsidian-pony
+  name: cadmium-crocodile
 spec:
-  replicas: 4
+  replicas: 1
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -61,11 +61,11 @@ spec:
   template:
     metadata:
       labels:
-        app: obsidian-pony
+        app: cadmium-crocodile
     spec:
       containers:
-      - name: obsidian-pony
-        image: ethos.azurecr.io/obsidianpony:$(Build.BuildId)
+      - name: cadmium-crocodile
+        image: ethos.azurecr.io/cadmiumcrocodile:$(Build.BuildId)
         imagePullPolicy: Always
         ports:
         - containerPort: 80

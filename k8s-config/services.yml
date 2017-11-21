@@ -23,10 +23,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: obsidian-pony
+  name: cadmium-crocodile
 spec:
   type: LoadBalancer
   selector:
-    app: obsidian-pony
+    app: cadmium-crocodile
   ports:
   - port: 80

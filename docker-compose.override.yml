@@ -1,6 +1,12 @@
 version: '3'
 
 services:
+  cadmiumcrocodile:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    ports:
+      - "80"
+
   glasssun:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -8,12 +14,6 @@ services:
       - "80"
 
   onyxlion:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "80"
-
-  obsidianpony:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:

@@ -1,20 +1,20 @@
 version: '3'
 
 services:
+  cadmiumcrocodile:
+    image: cadmiumcrocodile
+    build:
+      context: ./src/Web/CadmiumCrocodile
+      dockerfile: Dockerfile
+
   glasssun:
     image: glasssun
     build:
-      context: ./src/GlassSun
+      context: ./src/Services/GlassSun
       dockerfile: Dockerfile
 
   onyxlion:
     image: onyxlion
     build:
-      context: ./src/OnyxLion
-      dockerfile: Dockerfile
-
-  obsidianpony:
-    image: obsidianpony
-    build:
-      context: ./src/ObsidianPony
+      context: ./src/Services/OnyxLion
       dockerfile: Dockerfile
